@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>covid-19</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+
+        <nav class="navbar-inverse" style="position: sticky;top:0px;z-index:99999;">
+            <div class="navbar-header">
+                
+                  <a class="navbar-brand" href="#"> <i class="fa fa-home" aria-hidden="true"></i></a> 
+            </div>
+              <div class="navbar-collapse-navbar" id="myNavbar">
+                  <ul class="nav navbar-nav">
+                     <li><a href="#about"> ABOUT </a></li> 
+                     <li><a href="#symptoms"> SYMPTOMS </a></li>
+                     <li><a href="#precautions">  PRECAUTIONS </a></li>
+                     <li><a href="#questions"> QUESTIONS </a></li>
+                     <li><a href="#variants"> VARIANTS </a></li>
+                     <li><a href="#cases"> CASES </a></li>
+                     <li><a href="#contact"> CONTACT </a></li>
+                  </ul>
+              </div>
+        </nav>
+            <div class="container">
+
+                <div id="about">
+                    <h1> ABOUT COVID-19 </h1>
+                    <iframe src="https://en.wikipedia.org/wiki/COVID-19" height="1000px" width="1100px"></iframe>
+                </div>
+
+                <div id="symptoms">
+                    <h1> SYMPTOMS </h1>
+                    <div id="myCarousel" class="carousel slide">
+                        <div class="carousel-inner">
+                            <div class="item active">
+                                <center>
+                                 <img src="cough.jpg" height="300px" width="300px" class="img_responsive">
+                                  <div class="carousel content">
+                                   <p> COUGH </p>
+                                  </div>
+                                </center>
+                            </div>
+                            <div class="item">
+                                <center>
+                                 <img src="fever.jpeg" height="300px" width="300px" class="img_responsive">
+                                  <div class="carousel content">
+                                   <p> FEVER </p>
+                                  </div>
+                                </center>
+                            </div>
+                            <div class="item">
+                                <center>
+                                 <img src="fatigue.png" height="300px" width="300px" class="img_responsive">
+                                  <div class="carousel content">
+                                   <p> FATIGUE </p>
+                                  </div>
+                                </center>
+                            </div>
+                        </div>
+                        <!-- Left and right controls -->
+                       <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                       <span class="glyphicon glyphicon-chevron-left"></span>
+                       </a>
+                       <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                       </a>
+                    </div> 
+                 </div>
+
+                <div class="page-header col-lg-12 col-md-12 col-sm-12 col-xs-12" id="precautions">
+                    <h1> PRECAUTIONS AGAINST COVID-19 </h1>
+                    <ul class="list-group">
+                        <li class="list-group-item list-group-item-success col-lg-12 col-md-12 col-sm-12 col-xs-12 environment_li" >
+                        <h4> GET VACCINATED!</h4>
+                        <img src="vac.jpg" class="img-responsive col-lg-5 col-md-5 col-sm-5 col-xs-12" >
+                        <p class="list-group-item-text col-lg-7 col-md-7 col-sm-7 col-xs-12" >The world is in the midst of a COVID-19 pandemic. As WHO and partners work together on the response -- tracking the pandemic, advising on critical interventions, distributing vital medical supplies to those in need--- they are racing to develop and deploy safe and effective vaccines.   Vaccines save millions of lives each year. Vaccines work by training and preparing the bodys natural defences  the immune system to recognize and fight off the viruses and bacteria they target. After vaccination, if the body is later exposed to those disease-causing germs, the body is immediately ready to destroy them, preventing illness.
+                             There are several safe and effective vaccines that prevent people from getting seriously ill or dying from COVID-19. This is one part of managing COVID-19, in addition to the main preventive measures of staying at least 1 metre away from others, covering a cough or sneeze in your elbow, frequently cleaning your hands, wearing a mask and avoiding poorly ventilated rooms or opening a window. As of 15 November 2021, WHO has evaluated that the following vaccines against COVID-19 have met the necessary criteria for safety and efficacy: AstraZeneca/Oxford vaccine Johnson and Johnson Moderna Pfizer/BionTech Sinophar COVAXIN
+                             Read our Q&A on the Emergency Use Listing process to find out more about how WHO assesses the quality, safety and efficacy of COVID-19 vaccines. Some national regulators have also assessed other COVID-19 vaccine products for use in their countries..</p>
+                       </li>
+                       <li class="list-group-item list-group-item-warning col-lg-12 col-md-12 col-sm-12 col-xs-12 environment_li"  >
+                       <h4> WEAR A MASK! </h4>   
+                       <img src="download.jpg" class="img-responsive col-lg-5 col-md-5 col-sm-5 col-xs-12" >
+                       <p class="list-group-item-text col-lg-7 col-md-7 col-sm-7 col-xs-12" >The WHO and the US CDC recommend individuals wear non-medical face coverings in public settings where there is an increased risk of transmission and where social distancing measures are difficult to maintain.[168][169] This recommendation is meant to reduce the spread of the disease by asymptomatic and pre-symptomatic individuals and is complementary to established preventive measures such as social distancing.[169][170] Face coverings limit the volume and travel distance of expiratory droplets dispersed when talking, breathing, and coughing.[169][170] A face covering without vents or holes will also filter out particles containing the virus from inhaled and exhaled air, reducing the chances of infection.[171] But, if the mask include an exhalation valve, a wearer that is infected (maybe without having noticed that, and asymptomatic) would transmit the virus outwards through it, despite any certification they can have. So the masks with exhalation valve are not for the infected wearers, and are not reliable to stop the pandemic in a large scale. Many countries and local jurisdictions encourage or mandate the use of face masks or cloth face coverings by members of the public to limit the spread of the virus.[172]</p>
+                      </li>
+                    </ul>
+                 </div>
+
+                 <div class="page-header" id="questions">
+                     <h1> QUESTIONS ABOUT COVID-19 </h1>
+                 </div>
+                 <div class="bg-primary movie_head" data-toggle="collapse" data-target="#q1" >
+                    How is Covid-19 disease transmitted? <i class="fa fa-sort-desc" ></i>
+                 </div>
+
+                  <div id="q1" class="collapse">
+                    <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 movie_text">
+                     <p> COVID-19 transmits when people breathe in air contaminated by droplets and small airborne particles containing the virus. The risk of breathing these in is highest when people are in close proximity, but they can be inhaled over longer distances, particularly indoors. Transmission can also occur if splashed or sprayed with contaminated fluids in the eyes, nose or mouth, and, rarely, via contaminated surfaces.
+                     </p>
+                    </div>
+                  </div>
+                   <br>
+                   <div class="bg-primary movie_head" data-toggle="collapse" data-target="#q2" >
+                    What are the primary symptoms of covid-19?  <i class="fa fa-sort-desc" ></i>
+                 </div>
+
+                  <div id="q2" class="collapse">
+                    <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 movie_text">
+                     <p>Some of the primary symptoms to look for in a Covid 19 infected person are fever, dizziness, breathlessness, headache, dry cough ( eventually result in phlegm) and in a few cases loss in smell and taste. A few cases have also reported diarrhoea and fatigue.
+                     </p>
+                    </div>
+                   </div>
+                    <br>
+                     <div class="bg-primary movie_head" data-toggle="collapse" data-target="#q3" >
+                       How does Covid-19 affect the lungs? <i class="fa fa-sort-desc" ></i>
+                     </div>
+
+                    <div id="q3" class="collapse">
+                      <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 movie_text">
+                        <p>The virus works by damaging the wall and the lining of the alveolus and capillaries. The debris from the damage, which is plasma protein accumulates on the alveolus wall and thickens the lining. As the walls’ thicken, the transfer of oxygen to the red blood cells is impaired. The thicker the wall gets, the more difficult it gets to transfer oxygen to the red blood cells, which causes difficulty in breathing as the body is running short of oxygen. And the lack of oxygen to the internal organs results in a deficit in the body and impairs the functioning of the organs. At this juncture, the body fights to increase oxygen intake.
+                        </p>
+                      </div>
+\                    </div>
+                    
+                   <div class="page-header col-lg-12 col-md-12 col-sm-12 col=xs-12" id="variants">
+                     <h1 class="text-capatalize"> VARIANTS OF COVID-19 </h1>
+                   </div>
+
+                   <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 book"  data-toggle="modal" data-target="#variant1">
+                    <img src="delta.jpg" class="img-responsive">
+                    <hr >
+                    <p class="text-primary"> DELTA VARIANT </p>
+                  </div>
+                  
+                  <!-- Modal -->
+                  <div class="modal fade" id="variant1">
+                    <div class="modal-">
+                      <!-- Modal content-->
+                      <div class="modal-content" >
+                        <div class="modal-header">
+                          <button type="button" class="close" data-dismiss="modal">&times;</button>
+                          <h4 class="modal-title">DELTA VARIANT</h4>
+                        </div>
+                        <div class="modal-body">
+                          <img src="delta.jpg" class="img-responsive img_modal">
+                          <p class="p_modal">On July 27, 2021, CDC released updated guidance on the need for urgently increasing COVID-19 vaccination coverage and a recommendation for everyone in areas of substantial or high transmission to wear a mask in public indoor places, even if they are fully vaccinated. CDC issued this new guidance due to several concerning developments and newly emerging data signals.
+
+                            First, a significant increase in new cases reversed what had been a steady decline since January 2021. In the days leading up to our guidance update, CDC saw a rapid and alarming rise in the COVID-19 case and hospitalization rates around the country.
+                            
+                            In late June, the 7-day moving average of reported cases was around 12,000. On July 27, the 7-day moving average of cases reached over 60,000. This case rate looked more like the rate of cases we had seen before the vaccine was widely available.<br>
+                          <a href="https://www.cdc.gov/coronavirus/2019-ncov/variants/delta-variant.html" data-target="blank"><b>TO KNOW MORE</b></a>
+                           </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 book"  data-toggle="modal" data-target="#variant2">
+                    <img src="omi.jpeg" class="img-responsive">
+                    <hr >
+                    <p class="text-primary"> OMICRON VARIANT </p>
+                  </div>
+                  
+                  <!-- Modal -->
+                  <div class="modal fade" id="variant2">
+                    <div class="modal-">
+                      <!-- Modal content-->
+                      <div class="modal-content" >
+                        <div class="modal-header">
+                          <button type="button" class="close" data-dismiss="modal">&times;</button>
+                          <h4 class="modal-title">OMICRON VARIANT</h4>
+                        </div>
+                        <div class="modal-body">
+                          <img src="omi.jpeg" class="img-responsive img_modal">
+                          <p class="p_modal">
+                            This variant has a large number of mutations, some of which are concerning. Preliminary evidence suggests an increased risk of reinfection with this variant, as compared to other VOCs. The number of cases of this variant appears to be increasing in almost all provinces in South Africa. Current SARS-CoV-2 PCR diagnostics continue to detect this variant. Several labs have indicated that for one widely used PCR test, one of the three target genes is not detected (called S gene dropout or S gene target failure) and this test can therefore be used as marker for this variant, pending sequencing confirmation. Using this approach, this variant has been detected at faster rates than previous surges in infection, suggesting that this variant may have a growth advantage. <br>
+                          <a href="https://www.who.int/news/item/26-11-2021-classification-of-omicron-(b.1.1.529)-sars-cov-2-variant-of-concern" data-target="blank"><b>TO KNOW MORE</b></a>
+                           </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  
+                  <div class="page-header col-lg-12 col-md-12 col-sm-12 col-xs-12" id="cases">
+                    <h1> CASES OF COVID-19 </h1>
+                    <iframe src="https://www.worldometers.info/coronavirus/" height="1000px" width="1100px"></iframe>
+                  </div>
+                    
+                  <div class="page-header col-lg-12 col-md-12 col-sm-12 col-xs-12" id="contact">
+                    <h1> HELPLINE FOR COVID-19 </h1>
+                    <iframe src="https://www.tractorjunction.com/covid-19-helpline-number/" height="900px" width="1000px"></iframe>
+                  </div>
+  
+
+
+
+
+
+
+
+
+
+
+        </div>
+
+
+        
+       
+
+    </body>
+</html>
